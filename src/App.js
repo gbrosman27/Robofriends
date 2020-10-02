@@ -1,6 +1,7 @@
 import React from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
+import './App.css';
 // Destructured format because robots.js is export, not export default.
 import { robots } from './robots';
 
@@ -27,7 +28,7 @@ class App extends React.Component {
         return(
             // Text centered.
             <div className='tc'> 
-                <h1>RoboFriends</h1>
+                <h1 className='f1'>RoboFriends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CardList robots={filteredRobots}/>
             </div>

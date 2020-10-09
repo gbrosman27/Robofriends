@@ -10,7 +10,7 @@ import './App.css';
 //import { robots } from './robots';
 
 
-// Smart Component due to having 'state' (data the describes the app).
+// Smart Component due to having 'state' (data that describes the app).
 class App extends React.Component {
     constructor(){
         super()
